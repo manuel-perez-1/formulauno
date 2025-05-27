@@ -1,10 +1,11 @@
 body{
-    background-image: url(imagenf1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
-    text-align: center;
+    background-image: url('carro.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    height: 100vh;    
 }
 header, footer{
     background-color: lightblue;
@@ -18,16 +19,7 @@ header, footer{
     top: 0;
     z-index: 100;
 }
-.mover{
-    position: absolute;
-    width: 100px;
-    top: 50px;
-    animation: normal;
-}
-@keyframes mover{
-    0% {left: -100px;} 
-    100% {right: 100vw;}
-}
+
 .contenedor{
     margin-top: 30px;
     margin-left: 180px;
@@ -160,4 +152,40 @@ header, footer{
     h3{
        
         color: antiquewhite;
+    }
+
+    h2, h3{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color:blue;
+        text-align: center;
+    }
+
+    .video{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .carro{
+           display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+    #carro{
+        position: relative;
+        animation: moverCarro 5s infinite alternate ease-in-out;
+    }
+
+    @keyframes moverCarro {
+        0%{
+            right: 0;
+        }
+
+        100%{
+            right: -1444px;
+        }
+
+
     }
