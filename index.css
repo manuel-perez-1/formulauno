@@ -18,6 +18,8 @@ header, footer{
     bottom: 0;
     top: 0;
     z-index: 100;
+         margin: 0;
+        padding: 0;
 }
 
 .contenedor{
@@ -39,66 +41,66 @@ header, footer{
     font-size: small;
 }
 .c1{
-    background-color: gold;
+    background-color: rgb(75, 83, 175);
     width: 400px;
     height: 400px;
-    border-radius: 20%;
+    border-radius: 10%;
     flex-grow: 1;
 }
 .c2{
-    background-color: gold;
+    background-color: rgb(75, 83, 175);
     width: 400px;
     height: 400px;
-    border-radius: 20%;
+    border-radius: 10%;
     flex-grow: 1;
 }
 .c3{
-    background-color: gold;
+   background-color: rgb(75, 83, 175);
     width: 400px;
     height: 400px;
-    border-radius: 20%;
+    border-radius: 10%;
     flex-grow: 1;
 }
 .c4{
-    background-color: gold;
+    background-color: rgb(75, 83, 175);
     width: 400px;
     height: 400px;
-    border-radius: 20%;
+    border-radius: 10%;
     flex-grow: 1;
 }
 .c5{
-    background-color: gold;
+    background-color: rgb(75, 83, 175);
     width: 400px;
     height: 400px;
-    border-radius: 20%;
+    border-radius: 10%;
     flex-grow: 1;
 }
 .c6{
-    background-color: gold;
+    background-color: rgb(75, 83, 175);
     width: 400px;
     height: 400px;
-    border-radius: 20%;
+    border-radius: 10%;
     flex-grow: 1;
 }
 .c7{
-    background-color: gold;
+    background-color: rgb(75, 83, 175);
     width: 400px;
     height: 400px;
-    border-radius: 20%;
+    border-radius: 10%;
     flex-grow: 1;
 }
 .c8{
-    background-color: gold;
+    background-color: rgb(75, 83, 175);
     width: 400px;
     height: 400px;
-    border-radius: 20%;
+    border-radius: 10%;
     flex-grow: 1;
 }
 .c9{
-    background-color: gold;
+    background-color: rgb(75, 83, 175);
     width: 400px;
     height: 400px;
-    border-radius: 20%;
+    border-radius: 10%;
     flex-grow: 1;
 }
 
@@ -156,8 +158,10 @@ header, footer{
 
     h2, h3{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color:blue;
+        color:rgb(8, 8, 8);
         text-align: center;
+             margin: 0;
+        padding: 0;
     }
 
     .video{
@@ -168,7 +172,9 @@ header, footer{
     }
 
     .carro{
-           display: flex;
+        margin: 0;
+        padding: 0;
+        display: flex;
         align-items: center;
         justify-content: left;
     }
@@ -178,14 +184,17 @@ header, footer{
         animation: moverCarro 5s infinite alternate ease-in-out;
     }
 
+    h2{
+        margin: 0;
+        padding: 0;
+    }
+
     @keyframes moverCarro {
         0%{
             right: 0;
         }
 
         100%{
-            right: -1444px;
+            right: -1699px;
         }
-
-
     }
