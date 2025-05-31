@@ -1,0 +1,200 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('carro.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    height: 100vh;    
+}
+header, footer{
+    background-color: lightblue;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;  
+    position: sticky;
+    bottom: 0;
+    top: 0;
+    z-index: 100;
+         margin: 0;
+        padding: 0;
+}
+
+.contenedor{
+    margin-top: 30px;
+    margin-left: 180px;
+    padding: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;  
+    align-items: center;
+    }
+.caja{
+    border: 1px solid#000;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.c1{
+    background-color: rgb(75, 83, 175);
+    width: 400px;
+    height: 400px;
+    border-radius: 10%;
+    flex-grow: 1;
+}
+.c2{
+    background-color: rgb(75, 83, 175);
+    width: 400px;
+    height: 400px;
+    border-radius: 10%;
+    flex-grow: 1;
+}
+.c3{
+   background-color: rgb(75, 83, 175);
+    width: 400px;
+    height: 400px;
+    border-radius: 10%;
+    flex-grow: 1;
+}
+.c4{
+    background-color: rgb(75, 83, 175);
+    width: 400px;
+    height: 400px;
+    border-radius: 10%;
+    flex-grow: 1;
+}
+.c5{
+    background-color: rgb(75, 83, 175);
+    width: 400px;
+    height: 400px;
+    border-radius: 10%;
+    flex-grow: 1;
+}
+.c6{
+    background-color: rgb(75, 83, 175);
+    width: 400px;
+    height: 400px;
+    border-radius: 10%;
+    flex-grow: 1;
+}
+.c7{
+    background-color: rgb(75, 83, 175);
+    width: 400px;
+    height: 400px;
+    border-radius: 10%;
+    flex-grow: 1;
+}
+.c8{
+    background-color: rgb(75, 83, 175);
+    width: 400px;
+    height: 400px;
+    border-radius: 10%;
+    flex-grow: 1;
+}
+.c9{
+    background-color: rgb(75, 83, 175);
+    width: 400px;
+    height: 400px;
+    border-radius: 10%;
+    flex-grow: 1;
+}
+
+.c1:hover{
+    background-color: rgb(150, 150, 192);
+    color: rgb(8, 9, 9)} 
+
+.c2:hover{
+    background-color: rgb(150, 150, 176);
+    color: rgb(12, 12, 12)}
+
+.c3:hover{
+    background-color: rgb(118, 118, 141);
+    color: rgb(8, 8, 8)}
+       
+.c4:hover{
+    background-color: rgb(131, 131, 154);
+    color: rgb(8, 8, 8)}
+.c5:hover{
+    background-color: rgb(117, 117, 143);
+    color: rgb(10, 10, 10)} 
+
+.c6:hover{
+    background-color: rgb(140, 140, 173);
+    color: rgb(18, 19, 19)}
+
+.c7:hover{
+    background-color: rgb(120, 120, 148);
+    color: rgb(3, 3, 4)}
+            
+.c8:hover{
+    background-color: rgb(126, 126, 160);
+    color: rgb(13, 14, 14)}
+.c9:hover{
+    background-color: rgb(131, 131, 163);
+    color: rgb(10, 10, 10)}
+
+.caja:hover{
+    background-color: rgb(113, 113, 146);
+        color: aliceblue
+        box-shadow 0 0 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+.social-icons {
+        display: flex; 
+        justify-content: center;
+        align-items: center; 
+        padding: 20px;
+    }
+    h3{
+       
+        color: antiquewhite;
+    }
+
+    h2, h3{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color:rgb(8, 8, 8);
+        text-align: center;
+             margin: 0;
+        padding: 0;
+    }
+
+    .video{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .carro{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+    #carro{
+        position: relative;
+        animation: moverCarro 5s infinite alternate ease-in-out;
+    }
+
+    h2{
+        margin: 0;
+        padding: 0;
+    }
+
+    @keyframes moverCarro {
+        0%{
+            right: 0;
+        }
+
+        100%{
+            right: -1699px;
+        }
+    }
